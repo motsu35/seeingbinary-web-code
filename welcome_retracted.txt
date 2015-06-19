@@ -1,0 +1,8 @@
+<span id="a">user@SeeingBinary</span>:<span id="b">~</span><span id="c">$</span> cat /etc/issue
+<p>welcome to my corner of the internet..
+
+take a look around, there is more to this website than what can be seen. Read between the lines, and you will be surprised at what you find.
+
+use the command "help" to view commands. If you feel uncomforatable using a command line, type "im a noob"
+
+<span id="a">user@SeeingBinary</span><span id="d">:</span><span id="b">~</span><span id="c">$</span><span id="d" class="input"></span>
