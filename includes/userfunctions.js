@@ -40,8 +40,11 @@ var Typer={
 			var text=Typer.text.substring(0,Typer.index)// parse the text for stripping html enities
 			var rtn= new RegExp("\n", "g"); // newline regex
 	
-			$("#console").html(text.replace(rtn,"<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
-			
+            		try(){
+		                $("#console").html(text.replace(rtn,"<br/>"));// replace newline chars with br, tabs with 4 space and blanks with an html blank
+			}
+			catch(e){ };
+
 			if(Typer.index > Typer.text.length)
 			{
 				Typer.text = "";
